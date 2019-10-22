@@ -14,10 +14,10 @@
     </node>
 
     <!-- gst_camera nodelet -->
-    <node name="gst_camera"
+    <node name="image_publisher"
           pkg="nodelet" type="nodelet"
-          args="load ros_jetson_video/gst_camera standalone_nodelet">
-          <remap from="~image_raw" to="/image_raw"/>
+          args="load image_publisher/image_publisher manager">
+    <param name="filename" value="$(find rviz)/images/splash.png" />
     </node>
 
 </launch>
