@@ -17,7 +17,7 @@
     <node name="image_publisher"
           pkg="nodelet" type="nodelet"
           args="load image_publisher/image_publisher manager">
-    <param name="filename" value="$(find rviz)/images/splash.png" />
+    <param name="filename" value="~/jetson-inference/data/images/orange_0.jpg" />
     </node>
 
 </launch>
