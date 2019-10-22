@@ -17,7 +17,8 @@
     <node name="image_publisher"
           pkg="nodelet" type="nodelet"
           args="load image_publisher/image_publisher manager">
-    <param name="filename" value="~/jetson-inference/data/images/orange_0.jpg" />
+        <param name="filename" value="~/jetson-inference/data/images/orange_0.jpg" />
+        <remap from="~image_raw" to="/image_raw"/>
     </node>
 
 </launch>
