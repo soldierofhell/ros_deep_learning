@@ -1,5 +1,5 @@
 imagenet_node:
-    prototxt_path: "~/jetson-inference/build/x86_64/bin/networks/ResNet-18/deploy.prototxt"
-    model_path: "~/jetson-inference/build/x86_64/bin/networks/ResNet-18/ResNet-18.caffemodel"
-    class_labels_path: "~/jetson-inference/build/x86_64/bin/networks/ilsvrc12_synset_words.txt"
+    prototxt_path: "/home/miron/jetson-inference/build/x86_64/bin/networks/ResNet-18/deploy.prototxt"
+    model_path: "/home/miron/jetson-inference/build/x86_64/bin/networks/ResNet-18/ResNet-18.caffemodel"
+    class_labels_path: "/home/miron/jetson-inference/build/x86_64/bin/networks/ilsvrc12_synset_words.txt"
 
